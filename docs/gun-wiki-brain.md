@@ -18,6 +18,11 @@ The gun-wiki pattern treats context as an engineering asset:
 4. use retrieval to find relevant context later;
 5. keep the source of truth model-neutral.
 
+The current operating model is wiki-first hybrid. Stable project knowledge lives
+in the wiki, while fast memory keeps only bootstrapping facts, safety rules,
+recent checkpoints, and pointers. That keeps recall fast without turning memory
+into a second copy of the whole knowledge base.
+
 ## Inspiration and boundary
 
 This work is inspired by the broader idea of LLM-readable personal knowledge systems and curated reading notes, including public discussions from Andrej Karpathy and others about working with LLMs and structured context.
@@ -32,6 +37,24 @@ The public material here describes the operating model. It does not publish priv
 | Staging | Lets notes prove that they are reusable before becoming stable reference material |
 | Stable wiki | Holds durable patterns, system notes, and project knowledge |
 | Retrieval bridge | Helps AI tools find relevant prior context without depending on one model vendor |
+
+## Hybrid digestion loop
+
+The public-safe loop is:
+
+```text
+raw -> staging -> wiki -> audit
+```
+
+Raw notes preserve evidence from long-running work. Staging turns private,
+session-specific material into reusable patterns. Stable wiki pages become the
+durable source of truth. Periodic audits look for stale mirrors, duplicate
+guidance, unsafe details, or retrieval gaps.
+
+OpenClaw and Hermes can both use this structure without sharing raw private
+chat logs publicly. In practice, that means one operator can do broad
+orchestration while another reviews recovery, research, or digestion work, and
+both lanes still refer back to the same source-backed context.
 
 ## Public-safe example
 

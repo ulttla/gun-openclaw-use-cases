@@ -25,7 +25,7 @@ This public repository shares the parts of the lab that can help other people th
 | Long Work Windows | Validated | 5-hour and 12-hour campaigns validated via restartable chunks |
 | Infrastructure-aware app work | Active | AzVision app development case study and cloud architecture decision support |
 | Public-safe documentation | Active | Sanitized examples, synthetic data, and public boundaries |
-| gun-wiki brain | Active | Model-neutral LLM reference notes, inspired by Karpathy-style reading and curation |
+| gun-wiki brain | Active | Wiki-first hybrid knowledge digestion shared across OpenClaw and Hermes |
 | Spark / local LLM experiments | Active | Privacy-sensitive local inference with llama.cpp, Ollama, and NVIDIA GPU experiments |
 
 ## Positioning note
@@ -46,6 +46,21 @@ The lab treats long-running work as an engineering system:
 6. close with a reusable handoff record.
 
 This is supervised, approval-gated, AI-assisted app development. It is not a claim of full-time developer workflow nor that AI should make external or irreversible changes without a human decision.
+
+## OpenClaw and Hermes collaboration
+
+OpenClaw and Hermes are treated as complementary operators, not competing
+assistants in the same task thread. OpenClaw remains the broad orchestration
+lane for app work, portfolio work, and long work windows. Hermes provides a
+separate lane for recovery review, focused research, personal-assistant work,
+and Hermes-specific maintenance.
+
+The collaboration depends on two controls:
+
+- dedicated co-working spaces separate shared knowledge work from general
+  two-operator tasks;
+- gun-wiki acts as the shared durable brain, with raw captures digested into
+  stable notes before public artifacts are published.
 
 ## What stays private
 

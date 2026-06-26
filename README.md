@@ -4,6 +4,8 @@ This repository is a public, sanitized snapshot of how I run an AI Engineering L
 
 It is not a raw dump of my private setup. It is a cleaned set of notes, patterns, decisions, and case studies for people interested in supervised multi-tool AI engineering: harness design, long-running work windows, evidence-based closeouts, and infrastructure-aware validation.
 
+The lab now uses a wiki-first hybrid knowledge model: stable project context lives in gun-wiki, while fast memory keeps only safety rules, recent checkpoints, and pointers. OpenClaw and Hermes can share that durable context without exposing private runtime details.
+
 ## What this repo is
 
 - A practical lab-notes repository for AI-assisted engineering workflows.
@@ -42,7 +44,7 @@ The operating model is:
 | [AI Engineering Control Plane](docs/ai-assisted-engineering-control-plane.md) | How multiple tools stay under one accountable workflow |
 | [Long Work Window Playbook](docs/long-work-window-playbook.md) | The supervised multi-hour execution pattern |
 | [AzVision App Development](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
-| [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Model-neutral project memory and context engineering pattern |
+| [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Wiki-first hybrid project memory and context engineering pattern |
 | [Operator Resilience and Update Safety](docs/operator-resilience-and-update-safety.md) | Update gates, restart continuity, and backup/audit lane pattern |
 | [Hermes Secondary Operator Lane](docs/hermes-secondary-operator-lane.md) | Secondary audit/recovery lane for OpenClaw resilience |
 | [Restart Continuity Guard](docs/restart-continuity-guard.md) | Preserving chat/session continuity across approved control-plane restarts |

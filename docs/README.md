@@ -40,7 +40,7 @@ Internal deployment plans, approval packets, private review notes, and draft soc
 
 ## Model-neutral context notes
 
-- [Gun-Wiki Brain](gun-wiki-brain.md) — model-neutral project memory and LLM-readable context pattern
+- [Gun-Wiki Brain](gun-wiki-brain.md) — wiki-first hybrid project memory and LLM-readable context pattern
 - [Spark Local LLM Lab](spark-local-llm-lab.md) — local LLM / NVIDIA experimentation boundary
 
 ## Korean starter notes

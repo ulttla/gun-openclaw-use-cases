@@ -18,6 +18,8 @@ Gun-Wiki 패턴은 context를 engineering asset으로 다룹니다.
 4. 나중에 retrieval로 관련 맥락을 찾습니다.
 5. 특정 모델 하나에 종속되지 않는 source of truth를 유지합니다.
 
+현재 운영 모델은 wiki-first hybrid입니다. 오래 쓸 프로젝트 지식은 wiki에 두고, 빠른 memory에는 bootstrapping fact, 안전 규칙, 최근 checkpoint, pointer만 유지합니다. 이렇게 하면 memory를 전체 지식 베이스의 복사본으로 만들지 않으면서도 빠른 recall을 유지할 수 있습니다.
+
 ## 영감과 공개 경계
 
 이 작업은 LLM이 읽기 쉬운 개인 지식 시스템, curated reading note, structured context workflow에서 영감을 받았습니다. Andrej Karpathy가 공개적으로 이야기한 LLM note-taking과 context 활용 아이디어도 이 방향을 생각하는 데 참고가 됐습니다.
@@ -32,6 +34,18 @@ Gun-Wiki 패턴은 context를 engineering asset으로 다룹니다.
 | Staging | note가 재사용 가치가 있는지 확인하는 중간 단계 |
 | Stable wiki | 오래 쓸 수 있는 pattern, system note, project knowledge 보관 |
 | Retrieval bridge | 특정 모델에 종속되지 않고 과거 맥락을 다시 찾는 경로 |
+
+## Hybrid 소화 루프
+
+공개 가능한 운영 루프는 다음과 같습니다.
+
+```text
+raw -> staging -> wiki -> audit
+```
+
+Raw note는 장시간 작업의 evidence를 보존합니다. Staging은 private session에 묶인 내용을 재사용 가능한 pattern으로 정리합니다. Stable wiki는 오래 쓸 source of truth가 됩니다. Audit은 stale mirror, 중복 guidance, 공개 부적합 detail, retrieval gap을 주기적으로 확인합니다.
+
+OpenClaw와 Hermes는 raw private chat log를 공개하지 않고도 이 구조를 함께 사용할 수 있습니다. 즉, 한 operator는 넓은 orchestration을 맡고 다른 operator는 recovery, research, digestion review를 맡아도, 두 lane이 같은 source-backed context를 다시 참조할 수 있습니다.
 
 ## 공개 가능한 표현
 

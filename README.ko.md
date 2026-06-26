@@ -4,6 +4,8 @@
 
 개인 런타임 설정을 그대로 공개하는 저장소가 아니라, supervised multi-tool AI engineering을 실제 작업에 적용하면서 얻은 패턴, 의사결정, 사례, 안전 기준을 public-safe 형태로 정리한 자료입니다.
 
+현재 lab은 wiki-first hybrid knowledge model을 사용합니다. 오래 쓸 프로젝트 맥락은 gun-wiki에 두고, 빠른 memory에는 안전 규칙, 최근 checkpoint, pointer만 유지합니다. OpenClaw와 Hermes는 이 durable context를 공유하되 private runtime detail은 공개하지 않습니다.
+
 ## 이 저장소가 다루는 것
 
 - 여러 AI 도구를 하나의 책임 있는 workflow 안에서 조율하는 방법
@@ -11,7 +13,7 @@
 - 여러 시간 동안 이어지는 AI-assisted work를 check-in, validation, closeout으로 관리하는 방식
 - private operational work를 공개 가능한 case study와 example로 바꾸는 기준
 - AI-assisted app builder로서 infrastructure 문제를 working software와 decision-support tool로 바꾸는 방식
-- gun-wiki brain과 Spark local LLM처럼 model-neutral context와 privacy-sensitive local inference를 실험하는 방식
+- gun-wiki brain과 Spark local LLM처럼 wiki-first hybrid context와 privacy-sensitive local inference를 실험하는 방식
 
 ## 이 저장소가 아닌 것
 
@@ -40,7 +42,7 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 | [Long Work Window](docs/ko/long-work-window.md) | 여러 시간짜리 AI-assisted work를 관리하는 방식 |
 | [AI Engineering Control Plane](docs/ko/control-plane.md) | 여러 AI 도구를 하나의 운영 구조로 묶는 방식 |
 | [AzVision App Development](docs/ko/azvision-network-path-analysis.md) | Azure network analysis app을 cloud architecture decision support로 확장하는 사례 |
-| [Gun-Wiki Brain](docs/ko/gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
+| [Gun-Wiki Brain](docs/ko/gun-wiki-brain.md) | wiki-first hybrid project memory와 context engineering 패턴 |
 | [Spark Local LLM Lab](docs/ko/spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
 | [운영 복원력과 업데이트 안전성](docs/ko/operator-resilience-and-update-safety.md) | 업데이트 승인, 재시작 복구, 보조 감사 lane 패턴 |
 | [Hermes 보조 운영 Lane](docs/ko/hermes-secondary-operator-lane.md) | OpenClaw 장애/업데이트 시 보조 감사/복구 lane |

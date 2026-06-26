@@ -12,7 +12,7 @@
 | [AI Engineering Control Plane](control-plane.md) | 여러 AI 도구를 하나의 운영 구조로 묶는 방식 |
 | [Long Work Window](long-work-window.md) | 여러 시간짜리 AI-assisted work를 check-in, validation, closeout으로 운영하는 방식 |
 | [AzVision App Development](azvision-network-path-analysis.md) | Azure network analysis app을 cloud architecture decision support로 확장하는 사례 |
-| [Gun-Wiki Brain](gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
+| [Gun-Wiki Brain](gun-wiki-brain.md) | wiki-first hybrid project memory와 context engineering 패턴 |
 | [운영 복원력과 업데이트 안전성](operator-resilience-and-update-safety.md) | update gate, restart continuity, backup/audit lane 패턴 |
 | [Hermes 보조 운영 Lane](hermes-secondary-operator-lane.md) | OpenClaw resilience를 위한 보조 audit/recovery lane |
 | [Spark Local LLM Lab](spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
