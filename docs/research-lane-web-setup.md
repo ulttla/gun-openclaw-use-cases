@@ -23,5 +23,5 @@ Research lanes can silently fall back to different providers, fail due to quota 
 
 ## Related
 
-- [Hermes Secondary Operator Lane](hermes-secondary-operator-lane.md)
+- [Hermes Complementary Operator Lane](hermes-secondary-operator-lane.md)
 - [Security and Sanitization](security-and-sanitization.md)

@@ -4,7 +4,7 @@
 
 Gun-Wiki Brain은 AI-assisted engineering 작업을 위한 model-neutral knowledge system입니다.
 
-핵심 목표는 프로젝트 결정, 아키텍처 메모, 리뷰 결과, 리서치 요약, 반복 가능한 패턴을 특정 chat session이나 특정 모델에 가두지 않는 것입니다. OpenClaw, Codex, Claude Code, Gemini CLI, local LLM, 또는 앞으로 사용할 다른 도구가 같은 지식 기반을 활용할 수 있게 만드는 방향입니다.
+핵심 목표는 프로젝트 결정, 아키텍처 메모, 리뷰 결과, 리서치 요약, 반복 가능한 패턴을 특정 chat session이나 특정 모델에 가두지 않는 것입니다. OpenClaw, Hermes, Codex, Claude Code, Antigravity CLI, local LLM, 또는 앞으로 사용할 다른 도구가 같은 지식 기반을 활용할 수 있게 만드는 방향입니다.
 
 ## 왜 중요한가
 

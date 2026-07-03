@@ -1,15 +1,15 @@
 # OpenClaw Use Cases: AI Engineering Lab Notes
 
-This repository is a public, sanitized snapshot of how I run an AI Engineering Lab with OpenClaw as the current orchestration layer.
+This repository is a public, sanitized snapshot of how I run an AI Engineering Lab with OpenClaw and Hermes as complementary operator lanes.
 
 It is not a raw dump of my private setup. It is a cleaned set of notes, patterns, decisions, and case studies for people interested in supervised multi-tool AI engineering: harness design, long-running work windows, evidence-based closeouts, and infrastructure-aware validation.
 
-The lab now uses a wiki-first hybrid knowledge model: stable project context lives in gun-wiki, while fast memory keeps only safety rules, recent checkpoints, and pointers. OpenClaw and Hermes can share that durable context without exposing private runtime details.
+The lab now uses a wiki-first hybrid knowledge model: stable project context lives in gun-wiki, while fast memory keeps only safety rules, recent checkpoints, and pointers. OpenClaw and Hermes share that durable context without exposing private runtime details.
 
 ## What this repo is
 
 - A practical lab-notes repository for AI-assisted engineering workflows.
-- A public-safe explanation of how I coordinate multiple coding and review tools through one accountable orchestration layer.
+- A public-safe explanation of how I coordinate multiple coding, research, review, and recovery lanes through one accountable operating model.
 - A set of patterns for keeping long-running AI work observable, reviewable, and approval-gated.
 - A small collection of sanitized case studies and synthetic examples.
 
@@ -26,8 +26,8 @@ Many AI coding workflows optimize for speed. My focus is operating discipline: h
 
 The operating model is:
 
-1. one accountable orchestrator;
-2. multiple specialist lanes for planning, implementation, review, fact-checking, risk review, and smoke checks;
+1. one accountable user-facing operator for each active workflow;
+2. complementary operator lanes for broad coordination, focused research, recovery review, implementation, fact-checking, risk review, and smoke checks;
 3. human approval for external, destructive, or irreversible actions;
 4. state and closeout records that make long sessions resumable;
 5. public-safe documentation that shares the insight without exposing private infrastructure.
@@ -46,7 +46,7 @@ The operating model is:
 | [AzVision App Development](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
 | [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Wiki-first hybrid project memory and context engineering pattern |
 | [Operator Resilience and Update Safety](docs/operator-resilience-and-update-safety.md) | Update gates, restart continuity, and backup/audit lane pattern |
-| [Hermes Secondary Operator Lane](docs/hermes-secondary-operator-lane.md) | Secondary audit/recovery lane for OpenClaw resilience |
+| [Hermes Complementary Operator Lane](docs/hermes-secondary-operator-lane.md) | Focused research and recovery-review lane for OpenClaw resilience |
 | [Restart Continuity Guard](docs/restart-continuity-guard.md) | Preserving chat/session continuity across approved control-plane restarts |
 | [Isolated Update Worktree Pattern](docs/isolated-update-worktree.md) | Testing runtime updates and local patches before touching live checkouts |
 | [Research Lane Web Setup](docs/research-lane-web-setup.md) | Public-safe setup pattern for secondary research backends |

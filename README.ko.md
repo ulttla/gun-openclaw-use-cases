@@ -1,6 +1,6 @@
 # OpenClaw Use Cases: AI Engineering Lab Notes
 
-이 저장소는 제가 OpenClaw를 현재 orchestration layer로 사용해 운영하는 AI Engineering Lab의 공개용 노트입니다.
+이 저장소는 제가 OpenClaw와 Hermes를 상호 보완적인 operator lane으로 사용해 운영하는 AI Engineering Lab의 공개용 노트입니다.
 
 개인 런타임 설정을 그대로 공개하는 저장소가 아니라, supervised multi-tool AI engineering을 실제 작업에 적용하면서 얻은 패턴, 의사결정, 사례, 안전 기준을 public-safe 형태로 정리한 자료입니다.
 
@@ -8,7 +8,7 @@
 
 ## 이 저장소가 다루는 것
 
-- 여러 AI 도구를 하나의 책임 있는 workflow 안에서 조율하는 방법
+- 여러 AI 도구와 operator lane을 하나의 책임 있는 workflow 안에서 조율하는 방법
 - planning, implementation, review, fact-check, risk review를 분리하는 harness engineering 패턴
 - 여러 시간 동안 이어지는 AI-assisted work를 check-in, validation, closeout으로 관리하는 방식
 - private operational work를 공개 가능한 case study와 example로 바꾸는 기준
@@ -27,8 +27,8 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 
 제 기준의 operating model은 다음과 같습니다.
 
-1. 하나의 accountable orchestrator가 scope와 최종 결정을 책임집니다.
-2. 여러 specialist lane이 planning, build, review, fact-check, risk check를 나눠 맡습니다.
+1. 활성 workflow마다 하나의 user-facing operator가 scope와 최종 결정을 책임집니다.
+2. 여러 specialist lane과 complementary operator lane이 planning, build, review, fact-check, risk check, recovery review를 나눠 맡습니다.
 3. 외부 공개, 배포, 파괴적 변경, credential handling은 사람 승인을 유지합니다.
 4. 긴 작업은 state와 closeout 기록으로 재개 가능하게 만듭니다.
 5. 공개 문서는 private detail을 제거하고 pattern과 lesson만 남깁니다.

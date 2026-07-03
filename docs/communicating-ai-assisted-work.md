@@ -40,7 +40,7 @@ The strongest signal is not that AI was used. The strongest signal is that the w
 
 ## Example summary
 
-> I use AI tools as part of a supervised engineering workflow. OpenClaw acts as the current orchestration layer, while specialized lanes handle planning, implementation, review, fact-checking, and risk checks. External or irreversible actions remain human-approved, and each non-trivial work window closes with validation evidence and next steps.
+> I use AI tools as part of a supervised engineering workflow. OpenClaw handles broad coordination, while Hermes and specialized lanes handle focused research, implementation, review, fact-checking, recovery review, and risk checks. External or irreversible actions remain human-approved, and each non-trivial work window closes with validation evidence and next steps.
 
 ## Public boundary
 

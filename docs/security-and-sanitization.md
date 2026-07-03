@@ -31,7 +31,7 @@ Convert private AI-assisted engineering work into public portfolio material with
 | Private detail | Public-safe replacement |
 |---|---|
 | Specific model/version names | Role-level description such as review lane, fact-check lane, or orchestration LLM |
-| Tool names intentionally used as public context | Keep only when they are part of the public artifact's purpose; for this repo, OpenClaw is intentionally named as the current orchestrator while private runtime details stay omitted |
+| Tool names intentionally used as public context | Keep only when they are part of the public artifact's purpose; for this repo, OpenClaw and Hermes are intentionally named as public operator lanes while private runtime details stay omitted |
 | Local paths | Project-relative paths or omitted entirely |
 | Real cloud resource identifiers | Synthetic labels such as `source-vm`, `app-subnet`, `web-nsg` |
 | Internal channels | Generic terms such as development channel or portfolio channel |

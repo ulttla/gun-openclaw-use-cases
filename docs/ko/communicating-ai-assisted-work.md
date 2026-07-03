@@ -40,7 +40,7 @@ Unattended production change처럼 들리는 표현은 피합니다.
 
 ## 예시 문장
 
-> I use AI tools as part of a supervised engineering workflow. OpenClaw acts as the current orchestration layer, while specialized lanes handle planning, implementation, review, fact-checking, and risk checks. External or irreversible actions remain human-approved, and each non-trivial work window closes with validation evidence and next steps.
+> I use AI tools as part of a supervised engineering workflow. OpenClaw handles broad coordination, while Hermes and specialized lanes handle focused research, implementation, review, fact-checking, recovery review, and risk checks. External or irreversible actions remain human-approved, and each non-trivial work window closes with validation evidence and next steps.
 
 ## 공개 경계
 

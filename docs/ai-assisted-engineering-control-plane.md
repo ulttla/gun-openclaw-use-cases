@@ -2,7 +2,7 @@
 
 ## 60-second summary
 
-The goal was to use multiple AI tools without losing engineering discipline. The resulting workflow uses OpenClaw as the current orchestration layer across coding agents, CLI tools, browser automation, local scripts, GitHub, and deployment workflows, while role-based lanes keep planning, building, review, fact-checking, risk review, and closeout separate.
+The goal was to use multiple AI tools without losing engineering discipline. The resulting workflow uses OpenClaw as the broad coordination layer across coding agents, CLI tools, browser automation, local scripts, GitHub, and deployment workflows, while Hermes and other role-based lanes keep planning, research, recovery review, building, fact-checking, risk review, and closeout separate.
 
 ## Problem
 
@@ -19,7 +19,7 @@ For personal app development and infrastructure work, these gaps matter because 
 ## Design principles
 
 1. **Single front, multiple lanes**  
-   One orchestrator owns scope, user communication, final decisions, and tool execution. OpenClaw is the current orchestrator, but the pattern is tool-agnostic and can expand as better tools appear.
+   One user-facing operator owns scope, communication, final decisions, and tool execution for the active workflow. OpenClaw is the broad coordination lane in this lab, while Hermes and other specialist lanes are used where they are stronger.
 
 2. **Role-based review instead of invisible auto-routing**  
    Lanes are selected by purpose: planning, implementation, review, breadth research, fact-check, risk review, and smoke testing.

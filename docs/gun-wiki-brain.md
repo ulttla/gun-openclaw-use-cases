@@ -4,7 +4,7 @@
 
 The gun-wiki brain is a model-neutral knowledge system for AI-assisted engineering work.
 
-The goal is simple: project decisions, architecture notes, review outcomes, research summaries, and reusable patterns should not stay trapped inside one chat session or one model vendor. They should live in a structured knowledge base that can be reused by OpenClaw, Codex, Claude Code, Gemini CLI, local LLMs, or future tools.
+The goal is simple: project decisions, architecture notes, review outcomes, research summaries, and reusable patterns should not stay trapped inside one chat session or one model vendor. They should live in a structured knowledge base that can be reused by OpenClaw, Hermes, Codex, Claude Code, Antigravity CLI, local LLMs, or future tools.
 
 ## Why it matters
 

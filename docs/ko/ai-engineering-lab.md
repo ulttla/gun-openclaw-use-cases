@@ -4,7 +4,7 @@
 
 AI Engineering Lab은 AI-assisted application development, orchestration workflow, harness engineering, long-running automation을 실험하고 정리하는 개인 R&D 공간입니다.
 
-현재는 OpenClaw를 orchestration layer로 사용하지만, 핵심은 특정 도구 하나가 아니라 작업 운영 방식입니다. 즉, scope를 어떻게 고정하고, review lane을 어떻게 나누고, 어떤 작업에 사람 승인을 유지하고, 어떤 evidence를 남길 것인가가 중심입니다.
+현재는 OpenClaw와 Hermes를 상호 보완적인 lane으로 사용합니다. OpenClaw는 multi-channel coordination, browser/session workflow, approval boundary, long work window에 강하고, Hermes는 focused research, recovery review, operator-side automation에 강합니다. 핵심은 특정 도구 하나가 아니라 작업 운영 방식입니다. 즉, scope를 어떻게 고정하고, review lane을 어떻게 나누고, 어떤 작업에 사람 승인을 유지하고, 어떤 evidence를 남길 것인가가 중심입니다.
 
 ## 왜 공개하는가
 
@@ -23,13 +23,22 @@ AI Engineering Lab은 AI-assisted application development, orchestration workflo
 
 | Track | 상태 | 공개 가능한 evidence |
 |---|---:|---|
-| OpenClaw orchestration | Active | 현재 multi-tool workflow의 control plane |
+| OpenClaw coordination | Active | multi-tool, multi-channel workflow의 broad control plane |
+| Hermes complementary lane | Active | focused research, recovery review, operator-side automation |
 | Harness engineering | Active | role-based review lane, approval gate, closeout evidence |
 | Long Work Window | Validated | 5시간 및 12시간 campaign을 restartable chunk로 검증 |
 | Infrastructure-aware app work | Active | AzVision network path analysis case study, cloud architecture decision support |
 | Public-safe documentation | Active | synthetic example, sanitized evidence, 공개 경계 기준 |
 | gun-wiki brain | Active | model-neutral LLM reference note, Karpathy 스타일 reading note curation |
 | Spark / local LLM 실험 | Active | llama.cpp, Ollama, NVIDIA GPU 기반 privacy-sensitive local inference |
+
+## OpenClaw와 Hermes 협업
+
+OpenClaw와 Hermes는 같은 작업 thread에서 경쟁하는 assistant가 아니라, 역할이 나뉜 complementary operator입니다.
+
+- OpenClaw: app work, portfolio work, long work window, channel routing, browser/session workflow, approval boundary
+- Hermes: focused research, recovery review, follow-up automation, Hermes-specific maintenance
+- gun-wiki: 두 lane이 함께 참조하는 durable shared brain
 
 ## 중요한 경계
 

@@ -4,7 +4,7 @@
 
 The AI Engineering Lab is my personal R&D space for building AI-assisted applications, orchestration workflows, harness patterns, and supervised long-running engineering automation.
 
-OpenClaw is the current orchestration layer. The lab itself is intentionally tool-agnostic: the useful part is not one specific model or command, but the operating system around scope, review, approval, validation, and evidence.
+OpenClaw and Hermes now operate as complementary lanes. OpenClaw is strongest as the broad multi-channel coordination layer; Hermes is strongest as a focused research, recovery-review, and operator-side automation lane. The lab itself is intentionally tool-agnostic: the useful part is not one specific model or command, but the operating system around scope, review, approval, validation, and evidence.
 
 ## What this repository shares
 
@@ -20,7 +20,8 @@ This public repository shares the parts of the lab that can help other people th
 
 | Track | Status | Public evidence |
 |---|---:|---|
-| OpenClaw orchestration | Active | Current control plane for multi-tool workflows |
+| OpenClaw coordination | Active | Broad control plane for multi-tool, multi-channel workflows |
+| Hermes complementary lane | Active | Focused research, recovery review, and operator-side automation |
 | Harness engineering | Active | Role-based review lanes, approval gates, and evidence closeouts |
 | Long Work Windows | Validated | 5-hour and 12-hour campaigns validated via restartable chunks |
 | Infrastructure-aware app work | Active | AzVision app development case study and cloud architecture decision support |
@@ -50,10 +51,11 @@ This is supervised, approval-gated, AI-assisted app development. It is not a cla
 ## OpenClaw and Hermes collaboration
 
 OpenClaw and Hermes are treated as complementary operators, not competing
-assistants in the same task thread. OpenClaw remains the broad orchestration
-lane for app work, portfolio work, and long work windows. Hermes provides a
-separate lane for recovery review, focused research, personal-assistant work,
-and Hermes-specific maintenance.
+assistants in the same task thread. OpenClaw remains the broad coordination
+lane for app work, portfolio work, long work windows, channel routing, browser
+workflows, and approval boundaries. Hermes provides a separate lane for
+recovery review, focused research, personal-assistant work, follow-up
+automation, and Hermes-specific maintenance.
 
 The collaboration depends on two controls:
 

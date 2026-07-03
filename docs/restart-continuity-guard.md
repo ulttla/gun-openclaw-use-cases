@@ -44,5 +44,5 @@ Avoid:
 ## Related
 
 - [Operator Resilience and Update Safety](operator-resilience-and-update-safety.md)
-- [Hermes Secondary Operator Lane](hermes-secondary-operator-lane.md)
+- [Hermes Complementary Operator Lane](hermes-secondary-operator-lane.md)
 - [Public Release Evidence Pattern](public-release-evidence.md)

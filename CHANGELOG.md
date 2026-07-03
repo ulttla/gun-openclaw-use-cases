@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-- No unreleased changes yet.
+- Updated OpenClaw/Hermes positioning from a primary/secondary hierarchy to complementary operator lanes.
+- Replaced remaining Gemini CLI references with Antigravity CLI in public AI Lab knowledge-system wording.
 
 ## 2026-05
 

@@ -1,18 +1,19 @@
-# Hermes Secondary Operator Lane
+# Hermes Complementary Operator Lane
 
 ## 60-second summary
 
-Hermes is used as a secondary operator lane for the AI Engineering Lab: a separate assistant environment that can review recovery plans, inspect public-safe evidence, and help reason through OpenClaw outages or risky updates.
+Hermes is used as a complementary operator lane for the AI Engineering Lab: a separate assistant environment that can review recovery plans, inspect public-safe evidence, run focused research, and help reason through OpenClaw outages or risky updates.
 
-The important design choice is restraint. Hermes is not presented as unattended failover or a second autonomous production administrator. It is a backup audit and recovery console that remains behind human approval gates for service restarts, config edits, credentials, package updates, and external publishing.
+The important design choice is restraint. Hermes is not presented as unattended failover or a second autonomous production administrator. It is an active complementary lane for research, audit, and recovery support that remains behind human approval gates for service restarts, config edits, credentials, package updates, and external publishing.
 
 ## Why add a second lane
 
-A single AI operator can become a coordination bottleneck if the runtime is degraded, the session is reset, or an update changes behavior. A secondary lane helps with:
+A single AI operator can become a coordination bottleneck if the runtime is degraded, the session is reset, or an update changes behavior. A complementary lane helps with:
 
 - independent review of update and rollback plans;
 - recovery checklist access when the primary lane is unavailable;
 - public-safe digestion of private wiki notes into reusable patterns;
+- focused research and follow-up automation from a separate operating context;
 - separation between builder/orchestrator output and operational audit;
 - continuity for long-running work after restart or context loss.
 
@@ -48,6 +49,10 @@ A single AI operator can become a coordination bottleneck if the runtime is degr
 Use:
 
 > Added a secondary operator lane for audit and recovery support, with human-approved update/restart gates and public-safe evidence capture.
+
+Or:
+
+> Used OpenClaw and Hermes as complementary operator lanes: broad coordination in OpenClaw, focused research and recovery review in Hermes, with shared context and approval gates.
 
 Avoid:
 
