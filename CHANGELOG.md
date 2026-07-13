@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added a direct AI-assisted portfolio build and publishing case study.
+- Documented Long Work Window registration proof, missed-execution gates, transactional closeout, and supervisor repair patterns.
+- Updated the lab map for Workboard-backed execution and verified Hermes scheduled/durable task use.
 - Updated OpenClaw/Hermes positioning from a primary/secondary hierarchy to complementary operator lanes.
 - Replaced remaining Gemini CLI references with Antigravity CLI in public AI Lab knowledge-system wording.
 

@@ -6,6 +6,7 @@ This folder contains public-safe lab notes and case studies.
 
 - [AI Engineering Lab](ai-engineering-lab.md)
 - [AI Engineering Control Plane](ai-assisted-engineering-control-plane.md)
+- [AI-Assisted Portfolio Build and Publishing](ai-assisted-portfolio-build-publishing-workflow.md)
 - [Long Work Window Playbook](long-work-window-playbook.md)
 - [AzVision App Development](azvision-network-path-analysis.md)
 - [Gun-Wiki Brain](gun-wiki-brain.md)

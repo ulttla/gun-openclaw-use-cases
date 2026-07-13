@@ -59,6 +59,18 @@ The point is not reckless unattended deployment. The point is supervised, approv
 - public release status
 - next action
 
+## Execution and closeout hardening
+
+The current operator pattern distinguishes planned automation from proven execution:
+
+- registration read-back confirms that required wake jobs were actually recorded;
+- a missed-execution gate blocks false completion when a scheduled wake never fired;
+- closeout is transactional: visible delivery is read back before state is marked complete;
+- durable scheduler evidence is preferred over an in-memory assumption;
+- supervisor scans can identify stale or partial state, with repair limited to safe bookkeeping actions.
+
+These controls are custom operator safeguards, not claims about default OpenClaw behavior.
+
 ## Public portfolio framing
 
 A Long Work Window is not just “working for five hours.” It is a repeatable operating pattern for turning ambiguous, multi-step AI-assisted work into a delivery package that can be reviewed, resumed, or safely stopped.

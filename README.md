@@ -42,6 +42,7 @@ The operating model is:
 |---|---|
 | [AI Engineering Lab](docs/ai-engineering-lab.md) | Overall positioning and lab tracks |
 | [AI Engineering Control Plane](docs/ai-assisted-engineering-control-plane.md) | How multiple tools stay under one accountable workflow |
+| [AI-Assisted Portfolio Build and Publishing](docs/ai-assisted-portfolio-build-publishing-workflow.md) | Source, Git, hosting, and live verification under human ownership |
 | [Long Work Window Playbook](docs/long-work-window-playbook.md) | The supervised multi-hour execution pattern |
 | [AzVision App Development](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
 | [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Wiki-first hybrid project memory and context engineering pattern |

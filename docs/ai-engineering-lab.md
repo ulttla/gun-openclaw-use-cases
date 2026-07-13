@@ -20,12 +20,13 @@ This public repository shares the parts of the lab that can help other people th
 
 | Track | Status | Public evidence |
 |---|---:|---|
-| OpenClaw coordination | Active | Broad control plane for multi-tool, multi-channel workflows |
-| Hermes complementary lane | Active | Focused research, recovery review, and operator-side automation |
+| OpenClaw coordination | Active | Broad control plane with Workboard-backed decomposition and proof |
+| Hermes complementary lane | Active | Focused research, scheduled operations, durable task tracking, and recovery review |
 | Harness engineering | Active | Role-based review lanes, approval gates, and evidence closeouts |
 | Long Work Windows | Validated | 5-hour and 12-hour campaigns validated via restartable chunks |
 | Infrastructure-aware app work | Active | AzVision app development case study and cloud architecture decision support |
 | Public-safe documentation | Active | Sanitized examples, synthetic data, and public boundaries |
+| Portfolio publishing workflow | Active | Source, Git, hosting, smoke checks, and live-domain verification |
 | gun-wiki brain | Active | Wiki-first hybrid knowledge digestion shared across OpenClaw and Hermes |
 | Spark / local LLM experiments | Active | Privacy-sensitive local inference with llama.cpp, Ollama, and NVIDIA GPU experiments |
 
